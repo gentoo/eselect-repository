@@ -1,5 +1,5 @@
-# Copyright (c) 2017-2022 Michał Górny
-# 2-clause BSD license
+# Copyright (c) 2017-2025 Michał Górny
+# SPDX-License-Identifier: GPL-2.0-or-later
 
 inherit config
 

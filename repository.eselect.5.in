@@ -1,7 +1,7 @@
 .\" -*- coding: utf-8 -*-
 .\" Copyright 2019 Till Schäfer
-.\" Copyright 2021 Michał Górny
-.\" Distributed under the terms of the 2-clause BSD license
+.\" Copyright 2021-2025 Michał Górny
+.\" SPDX-License-Identifier: GPL-2.0-or-later
 .\"
 .TH repository.eselect 5 "07 Apr 2021" "Gentoo Linux" "eselect"
 .SH NAME
