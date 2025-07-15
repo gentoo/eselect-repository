@@ -3,7 +3,7 @@
 .\" Copyright 2021-2025 Michał Górny
 .\" SPDX-License-Identifier: GPL-2.0-or-later
 .\"
-.TH repository.eselect 5 "07 Apr 2021" "Gentoo Linux" "eselect"
+.TH repository.eselect 15 "2025-07-15" "Gentoo Linux" "eselect"
 .SH NAME
 \fBrepository.eselect\fP - Manage repos.conf via eselect
 .SH SYNOPSIS
