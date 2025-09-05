@@ -1,0 +1,17 @@
+certificate version 0.1
+pusher DF84256885283521 1757098814 +0200
+pushee git.gentoo.org:proj/eselect-repository.git
+nonce 1757098814-1d6e1c6a903f63ccac3cfc7a7640f74e1bfb833f
+
+6a9d41547b8c1a0a383e260a630455214fcd55ee 0000000000000000000000000000000000000000 refs/meta/push-certs
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEx2qEUJQJjSjMiybFY5ra4jKeJA4FAmi7Mz4ACgkQY5ra4jKe
+JA7dmggAvh5HNQw8UXlfXKD9XCN6fRAl86qjuMPYt14dIu4I/u8xbjvaN4p+wyvi
+F5d+4294c0fC36k39aytarzLgcyos02HjiBb3jzhjp2hkgjr62jdoEqr3eSviGSG
+xAQYEibl/dWhgZxFowhoB5OuNy0qZiYO9NgvcWZsAMNZt6/UQgVqrbF+iHMCcSn6
+/gSrb5r9UYL5SldIyR4N1xWeLEcnVfUyUpiE7ompSJYbgp+UydqWByrOoUKCuJ5s
+mPmTU2YKFMccjjvFnef6k4daGomXDtv8IEaMhIEEQjHigSIR/trogbN739qPTLX6
+9TiJIOR4CcGZW3EKpCpvkbyWDOa6JA==
+=axDL
+-----END PGP SIGNATURE-----
