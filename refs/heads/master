@@ -1,0 +1,14 @@
+certificate version 0.1
+pusher DF84256885283521 1782138346 +0200
+pushee git.gentoo.org:proj/eselect-repository
+nonce 1782138346-dea2b1bcf2e689dd6a61a225ed5a64e96100219d
+
+54bc0a8e0d0ccfe0757567bce1b0b451e83278ec aebe6009da61b3c09bbe89f5450cc7ac6452d2dd refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iJEEABYKADkWIQQcFD0bEK7NPNmWHtiOMjR69AVa6AUCajlF6hsUgAAAAAAEAA5t
+YW51MiwyLjUrMS4xMiwyLDIACgkQjjI0evQFWujoPQEAje/hcopjAeuLtSJQoG+h
+xucl18YvpV2wVjAtk778VdoBAPciUowN2LR9eFxwALHZiO7r59ZIx6Gmv9eIkovj
+u1sJ
+=Drzb
+-----END PGP SIGNATURE-----
