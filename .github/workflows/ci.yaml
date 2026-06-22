@@ -4,8 +4,7 @@ jobs:
   build:
     strategy:
       matrix:
-        # TODO: add 3.14-dev, pypy-3.11 once we have wheels
-        python-version: ["3.8", "3.9", "3.10", "3.11", "3.12", "3.13", "pypy-3.9", "pypy-3.10"]
+        python-version: ["3.11", "3.12", "3.13", "3.14", "3.15-dev", "pypy-3.11"]
       fail-fast: false
     runs-on: ubuntu-22.04
     steps:
