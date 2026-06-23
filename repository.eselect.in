@@ -223,6 +223,9 @@ describe_create_options() {
 
 do_create() {
 	[[ ${#} -eq 1 || ${#} -eq 2 ]] || die -q "incorrect parameters to create"
+	if [[ ${#} -eq 2 ]]; then
+		[[ ${2} != /* ]] && die -q "path must be absolute"
+	fi
 
 	get_config
 	update_cache
