@@ -50,8 +50,8 @@ Name of the repository to create
 .TP
 .B
 \fIpath\fP
-Directory to create the repository in. If not specified, defaults
-to a subdirectory of storage dir matching \fIname\fP
+Directory to create the repository in. Must be an absolute path.
+If not specified, defaults to ${REPOS_BASE}/\fIname\fP
 .TP
 .B
 \fIsync-uri\fP

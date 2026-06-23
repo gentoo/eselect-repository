@@ -218,11 +218,14 @@ describe_create_parameters() {
 
 describe_create_options() {
 	echo "<name>      : Name of the new repository"
-	echo "<path>      : Path to use (default: \${REPOS_BASE}/<name>)"
+	echo "<path>      : Absolute path to use (default: \${REPOS_BASE}/<name>)"
 }
 
 do_create() {
 	[[ ${#} -eq 1 || ${#} -eq 2 ]] || die -q "incorrect parameters to create"
+	if [[ ${#} -eq 2 ]]; then
+		[[ ${2} != /* ]] && die -q "path must be absolute"
+	fi
 
 	get_config
 	update_cache
