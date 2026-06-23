@@ -53,10 +53,6 @@ Name of the repository to create
 \fIpath\fP
 Directory to create the repository in. Must be an absolute path.
 If not specified, defaults to ${REPOS_BASE}/\fIname\fP
-.TP
-.B
-\fIsync-uri\fP
-Sync URI
 .SH ACTION: DISABLE
 Disable specified repositories without removing their contents
 .PP
