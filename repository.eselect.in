@@ -218,7 +218,7 @@ describe_create_parameters() {
 
 describe_create_options() {
 	echo "<name>      : Name of the new repository"
-	echo "<path>      : Path to use (default: \${REPOS_BASE}/<name>)"
+	echo "<path>      : Absolute path to use (default: \${REPOS_BASE}/<name>)"
 }
 
 do_create() {
