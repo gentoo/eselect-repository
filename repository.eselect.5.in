@@ -11,6 +11,7 @@
 .fam C
 \fBeselect\fP \fBrepository\fP [\fBhelp\fP|\fBusage\fP|\fBversion\fP]
 \fBeselect\fP \fBrepository\fP \fBadd\fP \fIname\fP \fIsync-type\fP \fIsync-uri\fP
+\fBeselect\fP \fBrepository\fP \fBcreate\fP \fIname\fP [\fIpath\fP]
 \fBeselect\fP \fBrepository\fP \fBdisable\fP [\fB-f\fP] (\fIname\fP|\fIindex\fP)
 \fBeselect\fP \fBrepository\fP \fBenable\fP (\fIname\fP|\fIindex\fP)
 \fBeselect\fP \fBrepository\fP \fBlist\fP [\fB-i\fP]
