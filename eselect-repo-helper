@@ -21,11 +21,8 @@ def transform_source(source_el, repo_name):
     stype = source_el.get('type')
     suri = source_el.text
     # pass-through
-    if stype in ('bzr', 'git', 'rsync', 'svn'):
+    if stype in ('bzr', 'git', 'mercurial', 'rsync', 'svn'):
         return (stype, suri)
-    # map to 'hg' syncer
-    elif stype == 'mercurial':
-        return ('hg', suri)
     else:
         print(f'warning: {repo_name}: unsupported source type {stype}',
               file=sys.stderr)
